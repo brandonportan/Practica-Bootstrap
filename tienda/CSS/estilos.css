@@ -2,6 +2,8 @@ html {
     font-family: system-ui, sans-serif;
 }
 .titulo {
+    text-align: center;
+    margin: 3rem auto;
     color: rgba(19, 76, 141, 0.463);
     font-size: 36px;
     font-weight: bold;
@@ -14,6 +16,7 @@ html {
 }
 
 .card {
+    margin: 2rem;
     background-color: beige;
     border-radius: 0.5rem;
     box-shadow: 0.2rem 0.4rem 1rem black;
@@ -43,18 +46,16 @@ html {
     cursor: pointer;
 }
 
-/* section {
-    max-width: 80%;
-    display: flex;
+img {
     margin: 0 auto;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-} */
-
+}
 section {
     max-width: 80%;
+    margin: 1rem auto;
+}
+
+.contenedor-imagen {
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4, 25%) ;
+    height: 15rem;
+    max-width: 20rem;
 }
